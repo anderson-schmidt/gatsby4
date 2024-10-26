@@ -19,11 +19,11 @@ export default function Pagina2() {
         <Layout>
             <h1>Unidades da Federação</h1>
             <Ufs setOpcaoUf={setOpcaoUf} /><br />
-            <Municipios uf={opcaoUf.key} />setOpcaoUf={setOpcaoUf}
+            <Municipios uf={opcaoUf.key} />
             <p>{opcaoUf.key} - {opcaoUf.value}</p>
             <p>{opcaoMunicipio.key} - {opcaoMunicipio.value}</p>
         </Layout>
     )
 }
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Dados Externos</title>
